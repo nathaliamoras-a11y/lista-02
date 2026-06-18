@@ -29,15 +29,16 @@ public class Menu
             Console.WriteLine("0 - Sair");
             Console.WriteLine("Escolha uma opção:");
             opcao = int.Parse(Console.ReadLine()!);
+            Console.Clear();
 
             if (opcao == 1)
             {
                 AtividadesCondicionais.Atividade01();
             }
 
-            if (opcao ==2)
+            if (opcao == 2)
             {
-               AtividadesCondicionais.Atividade02(); 
+                AtividadesCondicionais.Atividade02();
             }
 
             if (opcao == 3)
@@ -49,18 +50,86 @@ public class Menu
             {
                 AtividadesCondicionais.Atividade04();
             }
-            
+
             if (opcao == 5)
             {
                 AtividadesCondicionais.Atividade05();
             }
-             
-             if (opcao == 6)
+
+            if (opcao == 6)
             {
                 AtividadesCondicionais.Atividade06();
             }
-            
 
+            if (opcao == 7)
+            {
+                AtividadesCondicionais.Atividade07();
+            }
+
+            if (opcao == 8)
+            {
+                AtividadesCondicionais.Atividade08();
+            }
+
+            if (opcao == 9)
+            {
+                AtividadesCondicionais.Atividade09();
+            }
+
+            if (opcao == 10)
+            {
+                AtividadesCondicionais.Atividade010();
+            }
+
+            if (opcao == 11)
+            {
+                AtividadesRepeticao.Atividade11();
+            }
+
+            if (opcao == 12)
+            {
+                AtividadesRepeticao.Atividade12();
+            }
+
+            if (opcao == 13)
+            {
+                AtividadesRepeticao.Atividade13();
+            }
+
+            if (opcao == 14)
+            {
+                AtividadesRepeticao.Atividade14();
+            }
+
+            if (opcao == 15)
+            {
+                AtividadesRepeticao.Atividade15();
+            }
+
+            if (opcao == 16)
+            {
+                AtividadesRepeticao.Atividade16();
+            }
+
+            if (opcao == 17)
+            {
+                AtividadesRepeticao.Atividade17();
+            }
+
+            if (opcao == 18)
+            {
+                AtividadesRepeticao.Atividade18();
+            }
+
+            if (opcao == 19)
+            {
+                AtividadesSistemas.Atividade19();
+            }
+
+            if (opcao == 20)
+            {
+                AtividadesSistemas.Atividade20();
+            }
 
         } while (opcao != 0);
     }
